@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact | Ernest Fowler</title>
+    <meta name="description" content="A portfolio site for Ernest Fowler">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="./img/EF_icon.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="headerbox">
+        <div class="headerlogo">
+          <a href="./index.html">
+            <img src="./img/EF.svg" alt="">
+          </a>
+        </div>
+        
+        <nav class="header_desktop">
+          <a href="./projects.html" class="tg_buttonnav hvr-fade">Projects/Work</a>
+          <a href="./about.html" class="tg_buttonnav hvr-fade">About</a>
+          <a href="./contact.html" class="tg_buttonnav hvr-fade">Contact</a>
+        </nav>
+        <nav class="ham-menu-nav">
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+      
+      <div class="header_offscreen">
+        <ul>
+          <li><a href="./projects.html" class="tg_buttonnav">Projects/Work</a></li>
+          <li><a href="./about.html" class="tg_buttonnav">About</a></li>
+          <li><a href="./contact.html" class="tg_buttonnav">Contact</a></li>
+        </ul>
+      </div>  
+    </header>
+
+    <div class="default_hero"></div>
+
+    <main>
+        <h1 class="default_title">Let's Chat!</h1>
+              
+        <ul class="contact_list">
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/envelope-solid.svg" alt="">
+                <li><p class="tg_buttonnav">Email</p><a class="link" href="mailto:ernestkfowler@gmail.com">ernestkfowler@gmail.com</a></li>
+            </div>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/phone-solid.svg" alt="">
+                <li><p class="tg_buttonnav">Phone</p><a class="link" href="tel:+12257269303">+1(225)726-9303</a></li>
+            </div>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/linkedin-brands.svg" alt="">
+                <li><p class="tg_buttonnav">LinkedIn</p><a class="link" href="https://www.linkedin.com/in/ernest-fowler/">https://www.linkedin.com/in/ernest-fowler/</a></li>
+            </div>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/file-solid.svg" alt="">
+                <li><p class="tg_buttonnav">Resume</p><a class="link" href="https://drive.google.com/file/d/18RVSJ0Zf7QRnlwv5SwGd24ATdOYptBs2/view?usp=sharing">drive.google.com</a></li>
+            </div>
+        </ul>
+        <div class="contactform-box">
+            <p class="tg_subheader2 contactform-title">Send me a message!</p>
+            <form action="./form-thank-you.html" method="post">
+              <div class="contact">
+                <div class="contactform-name">
+                  <div class="contactform-input-box">
+                    <label for="first-name">First name</label>
+                    <input class="contactform-input" type="text" id="first-name" required>
+                  </div>
+                  <div class="contactform-input-box">
+                    <label for="last-name">Last name</label>
+                    <input class="contactform-input" type="text" id="last-name" required>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="contactform-input-box">
+                <label for="email">Email</label>
+                <input class="contactform-input" type="email" id="email" required>
+              </div>
+    
+              <div class="contactform-input-box"><label for="message">Message</label>
+                <textarea class="contactform-input" name="message" id="message" rows="3" cols="20"></textarea>
+              </div>
+
+              <p class="contactform-requiredinfo">All information required</p>
+
+              <div class="contactform-buttons">
+                <input class="tg_buttonnav" type="reset" value="Clear">
+                <button class="tg_buttonnav" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        
+    </main>
+
+    <footer>
+      <ul>
+        <li class="tg_subheader2 footer-title">Links</li>
+        <li><a href="">LinkedIn</a></li>
+        <li><a href="">Resume</a></li>
+      </ul>
+    </footer>
+    
+    <script src="./js/main.js" async defer></script>    
+    <script src="https://kit.fontawesome.com/0df49185fe.js" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/spotifyCurrentlyPlaying.js/dist/spotifyCurrentlyPlaying.min.js"></script>
+    <script src="./js/main.js" async defer></script>  
+</body>
+</html>
